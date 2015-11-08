@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>vid.png</string>
+			<key>Requirements</key>
+			<array>
+				<string>httpurl</string>
+			</array>
+			<key>Shell Script File</key>
+			<string>ytdl.sh</string>
+			<key>Stoppable</key>
+			<true/>
+			<key>Title</key>
+			<string>youtube-dl</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Download the video referred by the current URL using youtube-dl to the Movies directory. youtube-dl should be installed on your machine.</string>
+	<key>Extension Identifier</key>
+	<string>com.techglider.popclip-ytdl</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>youtube-dl</string>
+	</dict>
+	<key>Required Software Version</key>
+	<integer>693</integer>
+</dict>
+</plist>
